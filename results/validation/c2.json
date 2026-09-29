@@ -1,0 +1,230 @@
+{
+  "claim": "C2",
+  "claim_input_sha256": "b5fca7a0f0154be06477b39d72fe145f4e467ea1b89a109e96896fcf93157d3d",
+  "comparison": {
+    "baseline_mdape": 0.1888913024339618,
+    "baseline_mdape_ci": [
+      0.1361311326954317,
+      0.23277383651162745
+    ],
+    "diff": -0.0024681311695889108,
+    "diff_ci": [
+      -0.05553576340848062,
+      0.04932325749495164
+    ],
+    "loco_range": [
+      0.18557154794701203,
+      0.19505313640213998
+    ],
+    "mdape": 0.1913594336035507,
+    "mdape_ci": [
+      0.15791589908118525,
+      0.21924162974060624
+    ],
+    "n_clusters": 16,
+    "n_examples": 252,
+    "reasons": [
+      "baseline difference lower bound -0.056 <= 0"
+    ],
+    "verdict": "FAIL"
+  },
+  "excluded": {},
+  "fallback_claim": "c: measured error characterization only",
+  "fp4": {
+    "comparison": {
+      "baseline_mdape": 0.19385401920031198,
+      "baseline_mdape_ci": [
+        0.1530279261009084,
+        0.2567920359763322
+      ],
+      "diff": -0.0034863076596780562,
+      "diff_ci": [
+        -0.08076655111093842,
+        0.0728769402674063
+      ],
+      "loco_range": [
+        0.17674539940821116,
+        0.21137084352763053
+      ],
+      "mdape": 0.19734032685999003,
+      "mdape_ci": [
+        0.1393005631015249,
+        0.27456746221508715
+      ],
+      "n_clusters": 12,
+      "n_examples": 192,
+      "reasons": [
+        "baseline difference lower bound -0.081 <= 0"
+      ],
+      "verdict": "FAIL"
+    },
+    "fallback_claim": "c: measured error characterization only",
+    "label": "C2-FP4 (precision extrapolation)",
+    "mdape_all_rows": 0.19734032685999003,
+    "n_rows": 192,
+    "n_without_baseline_match": 0,
+    "reasons": [
+      "baseline difference lower bound -0.081 <= 0"
+    ],
+    "slices": {
+      "conc<=16": {
+        "mdape": 0.15832200432171994,
+        "n": 108
+      },
+      "conc>16": {
+        "mdape": 0.27127747026964355,
+        "n": 84
+      },
+      "framework=trt": {
+        "mdape": 0.13918935555428008,
+        "n": 72
+      },
+      "framework=vllm": {
+        "mdape": 0.24085705719785594,
+        "n": 120
+      },
+      "hardware=b200": {
+        "mdape": 0.14470098955057403,
+        "n": 132
+      },
+      "hardware=mi355x": {
+        "mdape": 0.3831670397833225,
+        "n": 60
+      },
+      "isl1024_osl1024": {
+        "mdape": 0.19108312571296301,
+        "n": 64
+      },
+      "isl1024_osl8192": {
+        "mdape": 0.11956301726144854,
+        "n": 64
+      },
+      "isl8192_osl1024": {
+        "mdape": 0.3023347774930642,
+        "n": 64
+      }
+    },
+    "spec_peak_mdape": 0.5649951032831622,
+    "verdict": "FAIL",
+    "verdict_note": "reported only; no threshold claim (no FP4 calibration hardware)"
+  },
+  "fp8": {
+    "comparison": {
+      "baseline_mdape": 0.1888913024339618,
+      "baseline_mdape_ci": [
+        0.1361311326954317,
+        0.23277383651162745
+      ],
+      "diff": -0.0024681311695889108,
+      "diff_ci": [
+        -0.05553576340848062,
+        0.04932325749495164
+      ],
+      "loco_range": [
+        0.18557154794701203,
+        0.19505313640213998
+      ],
+      "mdape": 0.1913594336035507,
+      "mdape_ci": [
+        0.15791589908118525,
+        0.21924162974060624
+      ],
+      "n_clusters": 16,
+      "n_examples": 252,
+      "reasons": [
+        "baseline difference lower bound -0.056 <= 0"
+      ],
+      "verdict": "FAIL"
+    },
+    "fallback_claim": "c: measured error characterization only",
+    "label": "C2 (FP8, held-out hardware)",
+    "mdape_all_rows": 0.1913594336035507,
+    "n_rows": 252,
+    "n_without_baseline_match": 0,
+    "reasons": [
+      "baseline difference lower bound -0.056 <= 0"
+    ],
+    "slices": {
+      "conc<=16": {
+        "mdape": 0.1676984896399063,
+        "n": 144
+      },
+      "conc>16": {
+        "mdape": 0.22407008061641465,
+        "n": 108
+      },
+      "framework=trt": {
+        "mdape": 0.21336890241397716,
+        "n": 72
+      },
+      "framework=vllm": {
+        "mdape": 0.17093180245177614,
+        "n": 180
+      },
+      "hardware=b200": {
+        "mdape": 0.1943771730284432,
+        "n": 132
+      },
+      "hardware=mi325x": {
+        "mdape": 0.19672311387630143,
+        "n": 60
+      },
+      "hardware=mi355x": {
+        "mdape": 0.16159787384896374,
+        "n": 60
+      },
+      "isl1024_osl1024": {
+        "mdape": 0.1702423401226551,
+        "n": 84
+      },
+      "isl1024_osl8192": {
+        "mdape": 0.16671957483688107,
+        "n": 84
+      },
+      "isl8192_osl1024": {
+        "mdape": 0.26115282740079643,
+        "n": 84
+      }
+    },
+    "spec_peak_mdape": 0.44839861835738193,
+    "verdict": "FAIL"
+  },
+  "knobs": {
+    "alpha": 2e-06,
+    "eta_c": 0.2,
+    "eta_m": 0.5,
+    "t_fixed": 0.002
+  },
+  "kv_bits_assumption": 8.0,
+  "meta": {
+    "config": {
+      "claim": "C2",
+      "stage": "evaluation"
+    },
+    "config_sha256": "ac40f33189ce19ba28298de4888a633877a20764a83c30b47372fffc501c222d",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T00:28:17Z",
+    "git_dirty": true,
+    "git_sha": "11c65870e1677ffa18aeb26db56ad89da23b7071",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": null,
+    "started_utc": "2026-09-29T00:28:17Z",
+    "tool_versions": {}
+  },
+  "reasons": [
+    "baseline difference lower bound -0.056 <= 0"
+  ],
+  "rules": {
+    "min_clusters": 6,
+    "min_examples": 60,
+    "threshold": 0.35,
+    "upper": 0.5
+  },
+  "source": "SemiAnalysis InferenceX public API snapshot (2026-09-28); repository Apache-2.0",
+  "verdict": "FAIL"
+}

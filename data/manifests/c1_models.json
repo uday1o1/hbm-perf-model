@@ -1,0 +1,127 @@
+{
+  "anchor": "qwen2.5-0.5b-instruct-q8_0.gguf",
+  "depths": [
+    0,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "description": "C1 model files, frozen before any evaluation measurement. SHA-256 and sizes from the Hugging Face LFS metadata; base-model and quantizer repositories are Apache-2.0.",
+  "files": [
+    {
+      "bytes": 675710816,
+      "filename": "qwen2.5-0.5b-instruct-q8_0.gguf",
+      "license": "apache-2.0",
+      "model_id": "qwen2.5-0.5b",
+      "precision": "q8_0",
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "sha256": "ca59ca7f13d0e15a8cfa77bd17e65d24f6844b554a7b6c12e07a5f89ff76844e",
+      "split": "calibration",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q8_0.gguf"
+    },
+    {
+      "bytes": 1266425696,
+      "filename": "qwen2.5-0.5b-instruct-fp16.gguf",
+      "license": "apache-2.0",
+      "model_id": "qwen2.5-0.5b",
+      "precision": "f16",
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc",
+      "split": "calibration",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-fp16.gguf"
+    },
+    {
+      "bytes": 1894532128,
+      "filename": "qwen2.5-1.5b-instruct-q8_0.gguf",
+      "license": "apache-2.0",
+      "model_id": "qwen2.5-1.5b",
+      "precision": "q8_0",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "sha256": "d7efb072e7724d25048a4fda0a3e10b04bdef5d06b1403a1c93bd9f1240a63c8",
+      "split": "calibration",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q8_0.gguf"
+    },
+    {
+      "bytes": 3560416288,
+      "filename": "qwen2.5-1.5b-instruct-fp16.gguf",
+      "license": "apache-2.0",
+      "model_id": "qwen2.5-1.5b",
+      "precision": "f16",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "sha256": "fc89e330deb3fd8fa560f1c0f35a1e2b8da96d59e13445559ed190307a6f5649",
+      "split": "calibration",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-fp16.gguf"
+    },
+    {
+      "bytes": 386405280,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "license": "apache-2.0",
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "repo": "bartowski/SmolLM2-360M-Instruct-GGUF",
+      "sha256": "c004ac34cce45e03e4452bca472535bc371fcb0d07ae560bba2c57ce4a284b7b",
+      "split": "evaluation",
+      "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q8_0.gguf"
+    },
+    {
+      "bytes": 725553792,
+      "filename": "SmolLM2-360M-Instruct-f16.gguf",
+      "license": "apache-2.0",
+      "model_id": "smollm2-360m",
+      "precision": "f16",
+      "repo": "bartowski/SmolLM2-360M-Instruct-GGUF",
+      "sha256": "7d23be4097d67c5c43c3df62ebc19609a25f483c7d0b77d3989e1d94e36ccab6",
+      "split": "evaluation",
+      "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-f16.gguf"
+    },
+    {
+      "bytes": 1820414944,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "license": "apache-2.0",
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "repo": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
+      "sha256": "0c6e8955788b1253f418c354a4bdc4cf507b8cfe49c48bb10c7c58ae713cfa2a",
+      "split": "evaluation",
+      "url": "https://huggingface.co/bartowski/SmolLM2-1.7B-Instruct-GGUF/resolve/main/SmolLM2-1.7B-Instruct-Q8_0.gguf"
+    },
+    {
+      "bytes": 3424735936,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "license": "apache-2.0",
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "repo": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
+      "sha256": "cf3f0569a9d0b56d5d3b5b7944768c71bd2fef789f8b36b1b85a05d390850852",
+      "split": "evaluation",
+      "url": "https://huggingface.co/bartowski/SmolLM2-1.7B-Instruct-GGUF/resolve/main/SmolLM2-1.7B-Instruct-f16.gguf"
+    },
+    {
+      "bytes": 1169808320,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf",
+      "license": "apache-2.0",
+      "model_id": "tinyllama-1.1b",
+      "precision": "q8_0",
+      "repo": "andrijdavid/TinyLlama-1.1B-Chat-v1.0-GGUF",
+      "sha256": "7405c70b3459dd52db34926bb2355335ebf0760e08fc07a800212863251cc280",
+      "split": "evaluation",
+      "url": "https://huggingface.co/andrijdavid/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf"
+    },
+    {
+      "bytes": 2201017248,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-f16.gguf",
+      "license": "apache-2.0",
+      "model_id": "tinyllama-1.1b",
+      "precision": "f16",
+      "repo": "andrijdavid/TinyLlama-1.1B-Chat-v1.0-GGUF",
+      "sha256": "d96e46fd247508b02348ac1d4cb1a215312df060b49a529db159bb9bb2a67f0b",
+      "split": "evaluation",
+      "url": "https://huggingface.co/andrijdavid/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0-f16.gguf"
+    }
+  ],
+  "frozen_utc": "2026-09-28",
+  "n_gen": 128,
+  "repetitions": 5
+}

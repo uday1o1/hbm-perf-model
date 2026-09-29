@@ -1,0 +1,10 @@
+id,family,n_layers,d_model,n_heads,n_kv_heads,head_dim,d_ff,vocab,tied_embeddings,mlp_type,n_experts,top_k,n_shared_experts,d_ff_expert,qkv_bias,published_params,source_url,notes
+llama-2-70b,llama2,80,8192,64,8,128,28672,32000,false,gated,,,,,false,68976653312,https://huggingface.co/NousResearch/Llama-2-70b-hf/blob/main/config.json,Ungated mirror of Meta Llama 2 70B config; published_params from Hugging Face safetensors metadata.
+llama-3.1-8b,llama3,32,4096,32,8,128,14336,128256,false,gated,,,,,false,8030261248,https://huggingface.co/unsloth/Meta-Llama-3.1-8B-Instruct/blob/main/config.json,Ungated mirror of Meta Llama 3.1 8B config; architecture also in arXiv 2407.21783 Table 3.
+llama-3.3-70b,llama3,80,8192,64,8,128,28672,128256,false,gated,,,,,false,70553706496,https://huggingface.co/unsloth/Llama-3.3-70B-Instruct/blob/main/config.json,Ungated mirror of Meta Llama 3.3 70B config; architecture also in arXiv 2407.21783 Table 3.
+mixtral-8x7b,mixtral,32,4096,32,8,128,,32000,false,moe,8,2,,14336,false,46702792704,https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/blob/main/config.json,Sparse MoE with 8 experts and top-2 routing.
+qwen2.5-0.5b,qwen2.5,24,896,14,2,64,4864,151936,true,gated,,,,,true,494032768,https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/config.json,Apache-2.0; QKV projections have bias.
+qwen2.5-1.5b,qwen2.5,28,1536,12,2,128,8960,151936,true,gated,,,,,true,1543714304,https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/config.json,Apache-2.0; QKV projections have bias.
+smollm2-1.7b,smollm2,24,2048,32,32,64,8192,49152,true,gated,,,,,false,1711376384,https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/blob/main/config.json,Apache-2.0; multi-head attention (no GQA).
+smollm2-360m,smollm2,32,960,15,5,64,2560,49152,true,gated,,,,,false,361821120,https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct/blob/main/config.json,Apache-2.0.
+tinyllama-1.1b,tinyllama,22,2048,32,4,64,5632,32000,false,gated,,,,,false,1100048384,https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/blob/main/config.json,Apache-2.0.

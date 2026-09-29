@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.cache/
+data/external/
+bench/host/build/
+*.gguf
+.DS_Store
+.claude/

@@ -1,0 +1,428 @@
+{
+  "fits": {
+    "bf16_flops": {
+      "doubling_years": 2.3989004487939347,
+      "doubling_years_ci": [
+        2.031207319010783,
+        2.9063927432297376
+      ],
+      "growth_per_year": 1.3350165699629426,
+      "log2_intercept": 45.705831098866646,
+      "log2_per_year": 0.416857648470889,
+      "metric": "bf16_flops",
+      "n_devices": 65,
+      "year_range": [
+        2017.3285,
+        2026.1889
+      ]
+    },
+    "mem_bw": {
+      "doubling_years": 2.773267814911122,
+      "doubling_years_ci": [
+        2.397696286471606,
+        3.2043606838423573
+      ],
+      "growth_per_year": 1.2839468139689505,
+      "intercept_note": "extrapolation of a log-linear fit, not a forecast",
+      "intercept_year": 2030.919361031773,
+      "intercept_year_ci": [
+        2029.2891712472197,
+        2032.971186145001
+      ],
+      "log2_intercept": 38.283986824658186,
+      "log2_per_year": 0.3605854417028412,
+      "metric": "mem_bw",
+      "n_devices": 136,
+      "target": 13934159462400.0,
+      "year_range": [
+        2008.4572,
+        2026.1889
+      ]
+    },
+    "mem_bytes": {
+      "doubling_years": 3.034218396017358,
+      "doubling_years_ci": [
+        2.538860320081002,
+        4.038608879519553
+      ],
+      "growth_per_year": 1.2566424028875998,
+      "intercept_note": "extrapolation of a log-linear fit, not a forecast",
+      "intercept_year": 2029.9094234796614,
+      "intercept_year_ci": [
+        2027.833501001719,
+        2034.1173350572572
+      ],
+      "log2_intercept": 33.13975764170655,
+      "log2_per_year": 0.3295741668802008,
+      "metric": "mem_bytes",
+      "n_devices": 121,
+      "target": 227006758912.0,
+      "year_range": [
+        2008.4572,
+        2026.1889
+      ]
+    },
+    "ridge": {
+      "doubling_years": 9.449273827369456,
+      "doubling_years_ci": [
+        6.688671704362551,
+        17.18704694002481
+      ],
+      "growth_per_year": 1.0761119992314248,
+      "log2_intercept": 6.86918355545507,
+      "log2_per_year": 0.10582823804973655,
+      "metric": "ridge",
+      "n_devices": 63,
+      "year_range": [
+        2017.3285,
+        2026.1889
+      ]
+    }
+  },
+  "meta": {
+    "config": {
+      "base_year": 2016,
+      "kind": "trends",
+      "min_devices": 8,
+      "resamples": 2000
+    },
+    "config_sha256": "f90f8d9b3d4c150b7b784faeffc5c26b111d47a575a26a36318593a5910e13c0",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T00:27:17Z",
+    "git_dirty": true,
+    "git_sha": "41be6028c202f8e1696289cc5d45a8f70710c870",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": null,
+    "started_utc": "2026-09-29T00:27:17Z",
+    "tool_versions": {}
+  },
+  "notes": "Ridge point = dense BF16 FLOP/s divided by memory bandwidth; for BF16 weights it approximates the decode batch at which a short-context dense model turns compute-bound.",
+  "ridge_points": [
+    {
+      "name": "Google TPU v2",
+      "ridge": 76.66666666666667,
+      "year": 2017.3285
+    },
+    {
+      "name": "NVIDIA Tesla V100 PCIe 16 GB",
+      "ridge": 124.86064659977704,
+      "year": 2017.4682
+    },
+    {
+      "name": "NVIDIA Tesla V100 SXM2 16 GB",
+      "ridge": 139.35340022296543,
+      "year": 2017.4682
+    },
+    {
+      "name": "NVIDIA V100",
+      "ridge": 139.35340022296543,
+      "year": 2017.4682
+    },
+    {
+      "name": "NVIDIA Tesla V100 SXM2",
+      "ridge": 139.35340022296543,
+      "year": 2017.4956
+    },
+    {
+      "name": "NVIDIA Tesla V100 DGXS 16 GB",
+      "ridge": 139.35340022296543,
+      "year": 2018.2327
+    },
+    {
+      "name": "NVIDIA Tesla V100 DGXS 32 GB",
+      "ridge": 139.35340022296543,
+      "year": 2018.2327
+    },
+    {
+      "name": "NVIDIA Tesla V100 PCIe 32 GB",
+      "ridge": 124.86064659977704,
+      "year": 2018.2327
+    },
+    {
+      "name": "NVIDIA Tesla V100 SXM2 32 GB",
+      "ridge": 139.19821826280622,
+      "year": 2018.2327
+    },
+    {
+      "name": "NVIDIA Tesla V100 SXM3 32 GB",
+      "ridge": 139.19821826280622,
+      "year": 2018.2327
+    },
+    {
+      "name": "Google TPU v3",
+      "ridge": 136.66666666666666,
+      "year": 2018.3751
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti 11GB",
+      "ridge": 184.74025974025975,
+      "year": 2018.7173
+    },
+    {
+      "name": "NVIDIA Tesla V100S PCIe 32 GB",
+      "ridge": 115.04424778761062,
+      "year": 2019.9008
+    },
+    {
+      "name": "Google TPU v4i",
+      "ridge": 224.7557003257329,
+      "year": 2020.0
+    },
+    {
+      "name": "NVIDIA A100",
+      "ridge": 200.0,
+      "year": 2020.1643
+    },
+    {
+      "name": "NVIDIA A100 SXM4 40 GB",
+      "ridge": 200.0,
+      "year": 2020.3669
+    },
+    {
+      "name": "NVIDIA A100 PCIe",
+      "ridge": 160.82474226804123,
+      "year": 2020.4736
+    },
+    {
+      "name": "NVIDIA A40 PCIe",
+      "ridge": 215.14803104340328,
+      "year": 2020.7611
+    },
+    {
+      "name": "NVIDIA A100 SXM4 80 GB",
+      "ridge": 153.01618440411966,
+      "year": 2020.8761
+    },
+    {
+      "name": "Google TPU v4",
+      "ridge": 229.16666666666666,
+      "year": 2021.3806
+    },
+    {
+      "name": "Tesla D1 Dojo",
+      "ridge": 36.2,
+      "year": 2021.6352
+    },
+    {
+      "name": "AMD Radeon Instinct MI250X",
+      "ridge": 116.76829268292683,
+      "year": 2021.8515
+    },
+    {
+      "name": "NVIDIA GeForce RTX 3090 Ti",
+      "ridge": 158.73015873015873,
+      "year": 2022.2382
+    },
+    {
+      "name": "NVIDIA A800 SXM",
+      "ridge": 152.84313725490196,
+      "year": 2022.6078
+    },
+    {
+      "name": "Biren BR100",
+      "ridge": 624.390243902439,
+      "year": 2022.6379
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "ridge": 327.3809523809524,
+      "year": 2022.7173
+    },
+    {
+      "name": "NVIDIA H100 PCIe",
+      "ridge": 370.5882352941176,
+      "year": 2022.7173
+    },
+    {
+      "name": "NVIDIA H100 SXM5 80GB",
+      "ridge": 295.34328358208955,
+      "year": 2022.7173
+    },
+    {
+      "name": "NVIDIA L40",
+      "ridge": 209.49074074074073,
+      "year": 2022.7803
+    },
+    {
+      "name": "Amazon Trainium1",
+      "ridge": 231.70731707317074,
+      "year": 2022.7858
+    },
+    {
+      "name": "NVIDIA A800 PCIe 80 GB",
+      "ridge": 160.82474226804123,
+      "year": 2022.8378
+    },
+    {
+      "name": "NVIDIA A800 PCIe 40 GB",
+      "ridge": 199.87179487179486,
+      "year": 2022.8515
+    },
+    {
+      "name": "AMD Instinct MI300A",
+      "ridge": 185.0188679245283,
+      "year": 2023.0082
+    },
+    {
+      "name": "NVIDIA GH100",
+      "ridge": 322.1028645833333,
+      "year": 2023.2163
+    },
+    {
+      "name": "NVIDIA H800 SXM5",
+      "ridge": 294.3452380952381,
+      "year": 2023.2163
+    },
+    {
+      "name": "NVIDIA L4",
+      "ridge": 403.1989336887704,
+      "year": 2023.2163
+    },
+    {
+      "name": "Meta MTIA v1 (MTIA 100)",
+      "ridge": 64.0,
+      "year": 2023.3751
+    },
+    {
+      "name": "NVIDIA GH200",
+      "ridge": 201.9387755102041,
+      "year": 2023.5996
+    },
+    {
+      "name": "Google TPU v5e",
+      "ridge": 240.53724053724054,
+      "year": 2023.6571
+    },
+    {
+      "name": "NVIDIA L20 PCle",
+      "ridge": 138.3101851851852,
+      "year": 2023.7064
+    },
+    {
+      "name": "NVIDIA HGX H20",
+      "ridge": 37.0,
+      "year": 2023.8542
+    },
+    {
+      "name": "NVIDIA L2 PCle",
+      "ridge": 321.6666666666667,
+      "year": 2023.8542
+    },
+    {
+      "name": "AMD Instinct MI300X",
+      "ridge": 246.67924528301887,
+      "year": 2023.9281
+    },
+    {
+      "name": "AMD Radeon Instinct MI308X",
+      "ridge": 63.46601941747573,
+      "year": 2023.9281
+    },
+    {
+      "name": "Google TPU v5p",
+      "ridge": 166.00361663652802,
+      "year": 2023.9281
+    },
+    {
+      "name": "MTT S4000",
+      "ridge": 130.20833333333334,
+      "year": 2023.9637
+    },
+    {
+      "name": "Meta MTIA v2 (MTIA 200)",
+      "ridge": 177.0,
+      "year": 2024.2738
+    },
+    {
+      "name": "Google TPU v6e Trillium",
+      "ridge": 559.7560975609756,
+      "year": 2024.3669
+    },
+    {
+      "name": "AMD Instinct MI325X",
+      "ridge": 217.9,
+      "year": 2024.7748
+    },
+    {
+      "name": "Huawei Ascend 910C",
+      "ridge": 250.0,
+      "year": 2024.7885
+    },
+    {
+      "name": "NVIDIA B200",
+      "ridge": 292.2077922077922,
+      "year": 2024.8734
+    },
+    {
+      "name": "NVIDIA H200 SXM",
+      "ridge": 206.14583333333334,
+      "year": 2024.8816
+    },
+    {
+      "name": "Amazon Trainium2",
+      "ridge": 230.0,
+      "year": 2024.9227
+    },
+    {
+      "name": "NVIDIA GB200",
+      "ridge": 312.5,
+      "year": 2025.1232
+    },
+    {
+      "name": "NVIDIA RTX Pro 6000 Blackwell",
+      "ridge": 281.13839285714283,
+      "year": 2025.2081
+    },
+    {
+      "name": "AMD Instinct MI350X",
+      "ridge": 288.7,
+      "year": 2025.4435
+    },
+    {
+      "name": "AMD Instinct MI355X",
+      "ridge": 314.575,
+      "year": 2025.4435
+    },
+    {
+      "name": "NVIDIA B300 (Blackwell Ultra)",
+      "ridge": 292.2077922077922,
+      "year": 2025.6379
+    },
+    {
+      "name": "NVIDIA GB300 (Blackwell Ultra)",
+      "ridge": 312.5,
+      "year": 2025.6379
+    },
+    {
+      "name": "Huawei Ascend 920",
+      "ridge": 225.0,
+      "year": 2025.7474
+    },
+    {
+      "name": "Google TPU v7 Ironwood",
+      "ridge": 313.0257801899593,
+      "year": 2025.846
+    },
+    {
+      "name": "Microsoft Maia 200",
+      "ridge": 181.14285714285714,
+      "year": 2026.0684
+    },
+    {
+      "name": "Meta MTIA 300",
+      "ridge": 98.36065573770492,
+      "year": 2026.1889
+    }
+  ],
+  "targets": {
+    "bandwidth_bytes_per_s": 13934159462400.0,
+    "bandwidth_desc": "llama-3.3-70b FP8 batch-1 decode at 1024 tokens of context with TPOT 5 ms on one device (memory-bound, 100% bandwidth efficiency)",
+    "capacity_bytes": 227006758912.0,
+    "capacity_desc": "llama-3.3-70b BF16 weights plus 32 sequences x 8192 tokens of BF16 KV on one device"
+  }
+}

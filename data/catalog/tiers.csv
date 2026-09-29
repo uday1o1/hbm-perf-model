@@ -1,0 +1,4 @@
+id,name,link,peak_bw_gb_per_s,measured_bw_gb_per_s,latency_ns,capacity_gb,source_url,notes
+gh200_c2c_lpddr5x,Grace LPDDR5X via NVLink-C2C,nvlink_c2c,450,,,480,https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/,NVLink-C2C is 900 GB/s total bidirectional so 450 GB/s per direction; Grace LPDDR5X up to 480 GB. Measured C2C behavior characterized in arXiv 2408.11556.
+host_ddr5_pcie_gen4_x16,Host DDR5 via PCIe Gen4 x16,pcie_gen4_x16,31.5,,,,https://pcisig.com/specifications,16 GT/s x 16 lanes x 128/130 encoding / 8 bits = 31.5 GB/s per direction.
+host_ddr5_pcie_gen5_x16,Host DDR5 via PCIe Gen5 x16,pcie_gen5_x16,63.0,,,,https://pcisig.com/specifications,32 GT/s x 16 lanes x 128/130 encoding / 8 bits = 63.0 GB/s per direction.

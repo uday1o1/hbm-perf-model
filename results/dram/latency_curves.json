@@ -1,0 +1,1237 @@
+{
+  "meta": {
+    "config": {
+      "load_fractions": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        0.95,
+        1.0,
+        1.1
+      ],
+      "requests": 20000
+    },
+    "config_sha256": "d87e4ef3b3ae3fb9678082a177fa6c3f57b849cd9bccf2465825b50bf30a8cfa",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T01:14:59Z",
+    "git_dirty": true,
+    "git_sha": "2e2045ee8802b4af53e22643c52f37c8ef52a6a4",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": 20260928,
+    "started_utc": "2026-09-29T01:14:59Z",
+    "tool_versions": {}
+  },
+  "rows": [
+    {
+      "achieved_gb_per_s": 1.412834720413254,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 1.409784787541027,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 56.30285,
+      "read_latency_ns_p50": 16.0,
+      "read_latency_ns_p99": 498.00999999999834
+    },
+    {
+      "achieved_gb_per_s": 2.8219441431431167,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 2.819569575082054,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 57.4969,
+      "read_latency_ns_p50": 16.0,
+      "read_latency_ns_p99": 503.0
+    },
+    {
+      "achieved_gb_per_s": 4.2387474501284865,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 4.229354362623081,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 62.56125,
+      "read_latency_ns_p50": 16.0,
+      "read_latency_ns_p99": 513.0099999999984
+    },
+    {
+      "achieved_gb_per_s": 5.629045876723895,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 5.639139150164108,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 69.4031,
+      "read_latency_ns_p50": 16.0,
+      "read_latency_ns_p99": 518.0
+    },
+    {
+      "achieved_gb_per_s": 7.064095630194593,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 7.048923937705134,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 75.56339999999999,
+      "read_latency_ns_p50": 17.0,
+      "read_latency_ns_p99": 526.0
+    },
+    {
+      "achieved_gb_per_s": 8.47659664644645,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 8.458708725246161,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 91.37289999999999,
+      "read_latency_ns_p50": 18.0,
+      "read_latency_ns_p99": 534.0
+    },
+    {
+      "achieved_gb_per_s": 9.889057140208289,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 9.868493512787188,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 106.4487,
+      "read_latency_ns_p50": 19.0,
+      "read_latency_ns_p99": 539.0
+    },
+    {
+      "achieved_gb_per_s": 11.301230774664054,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 11.278278300328216,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 133.5664,
+      "read_latency_ns_p50": 23.0,
+      "read_latency_ns_p99": 549.0
+    },
+    {
+      "achieved_gb_per_s": 12.713547874453715,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 12.688063087869242,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 175.83165,
+      "read_latency_ns_p50": 105.0,
+      "read_latency_ns_p99": 548.0
+    },
+    {
+      "achieved_gb_per_s": 13.325282641737283,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 13.392955481639754,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 220.81175,
+      "read_latency_ns_p50": 208.5,
+      "read_latency_ns_p99": 551.0
+    },
+    {
+      "achieved_gb_per_s": 13.910321893542568,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 14.097847875410269,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 566.48625,
+      "read_latency_ns_p50": 587.0,
+      "read_latency_ns_p99": 1113.0
+    },
+    {
+      "achieved_gb_per_s": 14.031702878691544,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 15.507632662951297,
+      "pattern": "stream",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 2220.44575,
+      "read_latency_ns_p50": 2066.0,
+      "read_latency_ns_p99": 4538.0
+    },
+    {
+      "achieved_gb_per_s": 0.7016612927451512,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 0.7000656311529206,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 76.9581,
+      "read_latency_ns_p50": 44.0,
+      "read_latency_ns_p99": 504.0
+    },
+    {
+      "achieved_gb_per_s": 1.4032533552006983,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 1.4001312623058413,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 83.6662,
+      "read_latency_ns_p50": 44.0,
+      "read_latency_ns_p99": 512.0
+    },
+    {
+      "achieved_gb_per_s": 2.1047854269918997,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 2.1001968934587616,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 90.41555,
+      "read_latency_ns_p50": 44.0,
+      "read_latency_ns_p99": 520.0
+    },
+    {
+      "achieved_gb_per_s": 2.8062298302230952,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 2.8002625246116826,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 97.2214,
+      "read_latency_ns_p50": 45.0,
+      "read_latency_ns_p99": 528.0
+    },
+    {
+      "achieved_gb_per_s": 3.50754121360926,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 3.500328155764603,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 108.1986,
+      "read_latency_ns_p50": 47.0,
+      "read_latency_ns_p99": 531.0099999999984
+    },
+    {
+      "achieved_gb_per_s": 4.2085604750412635,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 4.200393786917523,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 119.80165,
+      "read_latency_ns_p50": 49.0,
+      "read_latency_ns_p99": 535.0
+    },
+    {
+      "achieved_gb_per_s": 4.909406115278992,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 4.900459418070444,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 135.01655,
+      "read_latency_ns_p50": 54.0,
+      "read_latency_ns_p99": 544.0
+    },
+    {
+      "achieved_gb_per_s": 5.602142819628508,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 5.600525049223365,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 168.99525,
+      "read_latency_ns_p50": 77.0,
+      "read_latency_ns_p99": 554.0
+    },
+    {
+      "achieved_gb_per_s": 6.310516870772447,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 6.300590680376286,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 220.8147,
+      "read_latency_ns_p50": 150.0,
+      "read_latency_ns_p99": 581.0
+    },
+    {
+      "achieved_gb_per_s": 6.660145274418799,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 6.650623495952746,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 262.97345,
+      "read_latency_ns_p50": 246.0,
+      "read_latency_ns_p99": 599.0
+    },
+    {
+      "achieved_gb_per_s": 6.95198783402129,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 7.000656311529206,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 600.3921,
+      "read_latency_ns_p50": 589.0,
+      "read_latency_ns_p99": 1192.0
+    },
+    {
+      "achieved_gb_per_s": 6.97813879954206,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 7.700721942682128,
+      "pattern": "random",
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 4363.2456,
+      "read_latency_ns_p50": 4238.0,
+      "read_latency_ns_p99": 8852.009999999998
+    },
+    {
+      "achieved_gb_per_s": 2.161879145888841,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 2.1569701310190843,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 55.91440625,
+      "read_latency_ns_p50": 15.625,
+      "read_latency_ns_p99": 485.0
+    },
+    {
+      "achieved_gb_per_s": 4.32353922218516,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 4.313940262038169,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 58.93259375000001,
+      "read_latency_ns_p50": 15.625,
+      "read_latency_ns_p99": 500.0
+    },
+    {
+      "achieved_gb_per_s": 6.484952882764211,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 6.470910393057252,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 63.625375,
+      "read_latency_ns_p50": 15.625,
+      "read_latency_ns_p99": 521.25
+    },
+    {
+      "achieved_gb_per_s": 8.646165796983974,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 8.627880524076337,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 70.868375,
+      "read_latency_ns_p50": 15.625,
+      "read_latency_ns_p99": 533.125
+    },
+    {
+      "achieved_gb_per_s": 10.790419287874476,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 10.78485065509542,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 82.1745,
+      "read_latency_ns_p50": 16.25,
+      "read_latency_ns_p99": 549.381249999999
+    },
+    {
+      "achieved_gb_per_s": 12.967934755078264,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 12.941820786114503,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 90.14049999999999,
+      "read_latency_ns_p50": 16.875,
+      "read_latency_ns_p99": 544.381249999999
+    },
+    {
+      "achieved_gb_per_s": 15.128458935984755,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 15.098790917133588,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 112.961625,
+      "read_latency_ns_p50": 17.5,
+      "read_latency_ns_p99": 558.131249999999
+    },
+    {
+      "achieved_gb_per_s": 17.288828107852574,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 17.255761048152674,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 139.0534375,
+      "read_latency_ns_p50": 23.125,
+      "read_latency_ns_p99": 553.131249999999
+    },
+    {
+      "achieved_gb_per_s": 19.358375711287973,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 19.412731179171757,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 184.49825,
+      "read_latency_ns_p50": 108.125,
+      "read_latency_ns_p99": 556.875
+    },
+    {
+      "achieved_gb_per_s": 20.528447135239166,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 20.491216244681297,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 199.358625,
+      "read_latency_ns_p50": 159.375,
+      "read_latency_ns_p99": 555.625
+    },
+    {
+      "achieved_gb_per_s": 21.24040655465671,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 21.56970131019084,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 435.7866875,
+      "read_latency_ns_p50": 453.125,
+      "read_latency_ns_p99": 871.875
+    },
+    {
+      "achieved_gb_per_s": 21.47651006711409,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 23.726671441209927,
+      "pattern": "stream",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 1406.7040625000002,
+      "read_latency_ns_p50": 1276.25,
+      "read_latency_ns_p99": 3008.75
+    },
+    {
+      "achieved_gb_per_s": 0.64199902446242,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 0.6405364492762688,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 74.63734375,
+      "read_latency_ns_p50": 44.375,
+      "read_latency_ns_p99": 493.75
+    },
+    {
+      "achieved_gb_per_s": 1.283940091154731,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 1.2810728985525377,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 82.2508125,
+      "read_latency_ns_p50": 44.375,
+      "read_latency_ns_p99": 502.5
+    },
+    {
+      "achieved_gb_per_s": 1.925825622508087,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 1.9216093478288063,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 91.6250625,
+      "read_latency_ns_p50": 44.375,
+      "read_latency_ns_p99": 512.506249999999
+    },
+    {
+      "achieved_gb_per_s": 2.567651601773284,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 2.5621457971050754,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 96.84296875,
+      "read_latency_ns_p50": 45.0,
+      "read_latency_ns_p99": 520.631249999999
+    },
+    {
+      "achieved_gb_per_s": 3.2053188259267724,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 3.202682246381344,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 107.01503125,
+      "read_latency_ns_p50": 46.875,
+      "read_latency_ns_p99": 529.375
+    },
+    {
+      "achieved_gb_per_s": 3.8508545963935847,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 3.8432186956576126,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 122.22740625,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 540.0
+    },
+    {
+      "achieved_gb_per_s": 4.492134377988542,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 4.483755144933881,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 136.94571875,
+      "read_latency_ns_p50": 54.375,
+      "read_latency_ns_p99": 548.756249999999
+    },
+    {
+      "achieved_gb_per_s": 5.133295234657763,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 5.124291594210151,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 159.27975,
+      "read_latency_ns_p50": 70.625,
+      "read_latency_ns_p99": 553.756249999999
+    },
+    {
+      "achieved_gb_per_s": 5.76992426974396,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 5.764828043486419,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 212.24696875,
+      "read_latency_ns_p50": 145.0,
+      "read_latency_ns_p99": 578.125
+    },
+    {
+      "achieved_gb_per_s": 6.0947302010546744,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 6.085096268124554,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 259.864375,
+      "read_latency_ns_p50": 235.625,
+      "read_latency_ns_p99": 599.375
+    },
+    {
+      "achieved_gb_per_s": 6.36012993546704,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 6.405364492762688,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 735.20028125,
+      "read_latency_ns_p50": 720.0,
+      "read_latency_ns_p99": 1412.5
+    },
+    {
+      "achieved_gb_per_s": 6.386627997629962,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 7.045900942038958,
+      "pattern": "random",
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 4804.74540625,
+      "read_latency_ns_p50": 4641.875,
+      "read_latency_ns_p99": 9706.256249999999
+    },
+    {
+      "achieved_gb_per_s": 2.2441032024492285,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 2.239916003149882,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 41.56453125,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 388.75
+    },
+    {
+      "achieved_gb_per_s": 4.489810235364271,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 4.479832006299764,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 42.660937499999996,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 405.625
+    },
+    {
+      "achieved_gb_per_s": 6.734405313866692,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 6.719748009449646,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 47.5505,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 416.256249999999
+    },
+    {
+      "achieved_gb_per_s": 8.978754373197015,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 8.959664012599529,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 51.28625000000001,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 429.375
+    },
+    {
+      "achieved_gb_per_s": 11.22290173385064,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 11.19958001574941,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 60.25590625000001,
+      "read_latency_ns_p50": 14.375,
+      "read_latency_ns_p99": 443.75
+    },
+    {
+      "achieved_gb_per_s": 13.448026790990872,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 13.439496018899291,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 65.04503125,
+      "read_latency_ns_p50": 14.375,
+      "read_latency_ns_p99": 439.375
+    },
+    {
+      "achieved_gb_per_s": 15.710581629052301,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 15.679412022049172,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 76.87053125,
+      "read_latency_ns_p50": 15.625,
+      "read_latency_ns_p99": 439.375
+    },
+    {
+      "achieved_gb_per_s": 17.831954723552457,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 17.919328025199057,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 96.39925,
+      "read_latency_ns_p50": 17.5,
+      "read_latency_ns_p99": 446.875
+    },
+    {
+      "achieved_gb_per_s": 20.004688598890365,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 20.159244028348937,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 127.57153125,
+      "read_latency_ns_p50": 40.9375,
+      "read_latency_ns_p99": 463.125
+    },
+    {
+      "achieved_gb_per_s": 21.31423932726932,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 21.279202029923876,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 161.28721875,
+      "read_latency_ns_p50": 118.125,
+      "read_latency_ns_p99": 456.25
+    },
+    {
+      "achieved_gb_per_s": 22.057081313947226,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 22.39916003149882,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 340.85434375,
+      "read_latency_ns_p50": 351.5625,
+      "read_latency_ns_p99": 676.875
+    },
+    {
+      "achieved_gb_per_s": 22.31471594499771,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 24.639076034648703,
+      "pattern": "stream",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 1280.07659375,
+      "read_latency_ns_p50": 1216.875,
+      "read_latency_ns_p99": 2812.5
+    },
+    {
+      "achieved_gb_per_s": 0.7709032215322906,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 0.7691441018515042,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 67.64128125,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 401.25
+    },
+    {
+      "achieved_gb_per_s": 1.5417460876687414,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 1.5382882037030083,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 72.9615625,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 409.375
+    },
+    {
+      "achieved_gb_per_s": 2.312389348556563,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 2.3074323055545123,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 77.56659375,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 414.375
+    },
+    {
+      "achieved_gb_per_s": 3.0830744032564974,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 3.0765764074060167,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 83.36996875,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 418.75
+    },
+    {
+      "achieved_gb_per_s": 3.853405032757706,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 3.8457205092575206,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 92.04118749999999,
+      "read_latency_ns_p50": 50.0,
+      "read_latency_ns_p99": 430.625
+    },
+    {
+      "achieved_gb_per_s": 4.623504923761835,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 4.614864611109025,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 99.32840625000001,
+      "read_latency_ns_p50": 51.875,
+      "read_latency_ns_p99": 438.75
+    },
+    {
+      "achieved_gb_per_s": 5.39339098924482,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 5.3840087129605285,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 110.7753125,
+      "read_latency_ns_p50": 55.0,
+      "read_latency_ns_p99": 445.0
+    },
+    {
+      "achieved_gb_per_s": 6.163031441090086,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 6.153152814812033,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 130.961625,
+      "read_latency_ns_p50": 65.0,
+      "read_latency_ns_p99": 455.0
+    },
+    {
+      "achieved_gb_per_s": 6.932643679717278,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 6.922296916663537,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 164.44,
+      "read_latency_ns_p50": 100.0,
+      "read_latency_ns_p99": 458.75
+    },
+    {
+      "achieved_gb_per_s": 7.308334641791684,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 7.306868967589289,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 213.80356249999997,
+      "read_latency_ns_p50": 193.125,
+      "read_latency_ns_p99": 485.625
+    },
+    {
+      "achieved_gb_per_s": 7.6396815804591265,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 7.691441018515041,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 527.697,
+      "read_latency_ns_p50": 512.1875,
+      "read_latency_ns_p99": 1003.75
+    },
+    {
+      "achieved_gb_per_s": 7.6732283759582165,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 8.460585120366545,
+      "pattern": "random",
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 3900.1129375,
+      "read_latency_ns_p50": 3798.125,
+      "read_latency_ns_p99": 7933.75
+    },
+    {
+      "achieved_gb_per_s": 2.288109650504658,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 2.2829116040575186,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 28.742875,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 292.5
+    },
+    {
+      "achieved_gb_per_s": 4.575984127055059,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 4.565823208115037,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 28.88403125,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 300.0
+    },
+    {
+      "achieved_gb_per_s": 6.863638801008097,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 6.848734812172556,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 30.78390625,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 310.631249999999
+    },
+    {
+      "achieved_gb_per_s": 9.151027703306523,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 9.131646416230074,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 32.72034375,
+      "read_latency_ns_p50": 13.75,
+      "read_latency_ns_p99": 311.25
+    },
+    {
+      "achieved_gb_per_s": 11.438273535588221,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 11.414558020287593,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 36.93940625,
+      "read_latency_ns_p50": 14.375,
+      "read_latency_ns_p99": 314.375
+    },
+    {
+      "achieved_gb_per_s": 13.721575301164458,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 13.697469624345112,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 38.4568125,
+      "read_latency_ns_p50": 14.375,
+      "read_latency_ns_p99": 302.5
+    },
+    {
+      "achieved_gb_per_s": 16.002750472737503,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 15.98038122840263,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 48.72159375,
+      "read_latency_ns_p50": 15.0,
+      "read_latency_ns_p99": 311.256249999999
+    },
+    {
+      "achieved_gb_per_s": 18.281796757837604,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 18.26329283246015,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 60.39203125,
+      "read_latency_ns_p50": 16.875,
+      "read_latency_ns_p99": 320.625
+    },
+    {
+      "achieved_gb_per_s": 20.559771915030318,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 20.54620443651767,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 76.520375,
+      "read_latency_ns_p50": 26.25,
+      "read_latency_ns_p99": 311.875
+    },
+    {
+      "achieved_gb_per_s": 21.69813319772,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 21.687660238546428,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 109.1090625,
+      "read_latency_ns_p50": 65.0,
+      "read_latency_ns_p99": 335.0
+    },
+    {
+      "achieved_gb_per_s": 22.552085627450115,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 22.829116040575187,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 222.07521875,
+      "read_latency_ns_p50": 218.75,
+      "read_latency_ns_p99": 467.5
+    },
+    {
+      "achieved_gb_per_s": 22.78188128504049,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 25.112027644632708,
+      "pattern": "stream",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 1209.2059375,
+      "read_latency_ns_p50": 1175.0,
+      "read_latency_ns_p99": 2653.756249999999
+    },
+    {
+      "achieved_gb_per_s": 0.7732439471385065,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 0.7714793719675739,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 60.78340625,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 302.506249999999
+    },
+    {
+      "achieved_gb_per_s": 1.5464260041197755,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 1.5429587439351478,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 66.3190625,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 315.006249999999
+    },
+    {
+      "achieved_gb_per_s": 2.319407826189376,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 2.314438115902721,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 70.96025,
+      "read_latency_ns_p50": 49.375,
+      "read_latency_ns_p99": 328.75
+    },
+    {
+      "achieved_gb_per_s": 3.0899774890311833,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 3.0859174878702955,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 77.652375,
+      "read_latency_ns_p50": 50.0,
+      "read_latency_ns_p99": 340.006249999999
+    },
+    {
+      "achieved_gb_per_s": 3.865098986543869,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 3.857396859837869,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 83.33009375,
+      "read_latency_ns_p50": 51.875,
+      "read_latency_ns_p99": 353.756249999999
+    },
+    {
+      "achieved_gb_per_s": 4.637597144979258,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 4.628876231805442,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 93.37884375,
+      "read_latency_ns_p50": 56.25,
+      "read_latency_ns_p99": 366.881249999999
+    },
+    {
+      "achieved_gb_per_s": 5.409717416225982,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 5.400355603773016,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 104.90578125000002,
+      "read_latency_ns_p50": 66.875,
+      "read_latency_ns_p99": 399.381249999999
+    },
+    {
+      "achieved_gb_per_s": 6.181857696533572,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 6.171834975740591,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 125.26568749999998,
+      "read_latency_ns_p50": 84.375,
+      "read_latency_ns_p99": 433.125
+    },
+    {
+      "achieved_gb_per_s": 6.949958938230883,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 6.9433143477081645,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 160.7015625,
+      "read_latency_ns_p50": 120.0,
+      "read_latency_ns_p99": 471.875
+    },
+    {
+      "achieved_gb_per_s": 7.321240893134192,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 7.329054033691951,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 203.479,
+      "read_latency_ns_p50": 181.875,
+      "read_latency_ns_p99": 515.0
+    },
+    {
+      "achieved_gb_per_s": 7.668918412893369,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 7.714793719675738,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 414.26690625,
+      "read_latency_ns_p50": 392.5,
+      "read_latency_ns_p99": 890.625
+    },
+    {
+      "achieved_gb_per_s": 7.702433337094287,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 8.486273091643312,
+      "pattern": "random",
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 3782.8886562500006,
+      "read_latency_ns_p50": 3605.0,
+      "read_latency_ns_p99": 7659.375
+    },
+    {
+      "achieved_gb_per_s": 3.157252848643716,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 3.1501245505104505,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 40.17305025,
+      "read_latency_ns_p50": 13.344,
+      "read_latency_ns_p99": 387.81416999999936
+    },
+    {
+      "achieved_gb_per_s": 6.314090048809593,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 6.300249101020901,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 44.17226790000001,
+      "read_latency_ns_p50": 13.344,
+      "read_latency_ns_p99": 405.324
+    },
+    {
+      "achieved_gb_per_s": 9.47051168257165,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 9.45037365153135,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 48.720361800000006,
+      "read_latency_ns_p50": 13.344,
+      "read_latency_ns_p99": 421.59116999999935
+    },
+    {
+      "achieved_gb_per_s": 12.626569771159403,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 12.600498202041802,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 55.27299555,
+      "read_latency_ns_p50": 13.344,
+      "read_latency_ns_p99": 441.603
+    },
+    {
+      "achieved_gb_per_s": 15.782043664180206,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 15.750622752552252,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 59.44749915,
+      "read_latency_ns_p50": 13.761,
+      "read_latency_ns_p99": 435.348
+    },
+    {
+      "achieved_gb_per_s": 18.93728400585103,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 18.9007473030627,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 69.17129279999999,
+      "read_latency_ns_p50": 14.178,
+      "read_latency_ns_p99": 455.364
+    },
+    {
+      "achieved_gb_per_s": 22.09227133990005,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 22.050871853573152,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 77.71893795000001,
+      "read_latency_ns_p50": 14.595,
+      "read_latency_ns_p99": 432.846
+    },
+    {
+      "achieved_gb_per_s": 25.24670070000817,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 25.200996404083604,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 110.9718315,
+      "read_latency_ns_p50": 17.097,
+      "read_latency_ns_p99": 496.65116999999935
+    },
+    {
+      "achieved_gb_per_s": 28.400144006480204,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 28.35112095459405,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 140.62626525,
+      "read_latency_ns_p50": 66.303,
+      "read_latency_ns_p99": 468.708
+    },
+    {
+      "achieved_gb_per_s": 29.75460309521329,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 29.926183229849276,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 173.24350485,
+      "read_latency_ns_p50": 129.27,
+      "read_latency_ns_p99": 485.388
+    },
+    {
+      "achieved_gb_per_s": 30.817480869326467,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 31.501245505104503,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 282.45290669999997,
+      "read_latency_ns_p50": 285.228,
+      "read_latency_ns_p99": 626.3381699999993
+    },
+    {
+      "achieved_gb_per_s": 31.387217928221947,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 34.651370055614954,
+      "pattern": "stream",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 856.7240396999999,
+      "read_latency_ns_p50": 831.498,
+      "read_latency_ns_p99": 2001.6
+    },
+    {
+      "achieved_gb_per_s": 0.7705020012200322,
+      "load_fraction": 0.1,
+      "offered_gb_per_s": 0.768742922385108,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 66.4735947,
+      "read_latency_ns_p50": 49.206,
+      "read_latency_ns_p99": 397.82216999999935
+    },
+    {
+      "achieved_gb_per_s": 1.5409436616189807,
+      "load_fraction": 0.2,
+      "offered_gb_per_s": 1.537485844770216,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 72.43043970000001,
+      "read_latency_ns_p50": 49.206,
+      "read_latency_ns_p99": 401.988
+    },
+    {
+      "achieved_gb_per_s": 2.3080356862563467,
+      "load_fraction": 0.3,
+      "offered_gb_per_s": 2.3062287671553237,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 77.4501189,
+      "read_latency_ns_p50": 49.206,
+      "read_latency_ns_p99": 412.413
+    },
+    {
+      "achieved_gb_per_s": 3.0814634651917547,
+      "load_fraction": 0.4,
+      "offered_gb_per_s": 3.074971689540432,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 83.55470700000001,
+      "read_latency_ns_p50": 49.206,
+      "read_latency_ns_p99": 418.251
+    },
+    {
+      "achieved_gb_per_s": 3.85139243422601,
+      "load_fraction": 0.5,
+      "offered_gb_per_s": 3.84371461192554,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 91.9766892,
+      "read_latency_ns_p50": 50.04,
+      "read_latency_ns_p99": 427.842
+    },
+    {
+      "achieved_gb_per_s": 4.621109659264357,
+      "load_fraction": 0.6,
+      "offered_gb_per_s": 4.612457534310647,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 99.11950305,
+      "read_latency_ns_p50": 51.291,
+      "read_latency_ns_p99": 433.68
+    },
+    {
+      "achieved_gb_per_s": 5.390556107876988,
+      "load_fraction": 0.7,
+      "offered_gb_per_s": 5.381200456695756,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 110.92189574999999,
+      "read_latency_ns_p50": 55.044,
+      "read_latency_ns_p99": 441.603
+    },
+    {
+      "achieved_gb_per_s": 6.159835053476897,
+      "load_fraction": 0.8,
+      "offered_gb_per_s": 6.149943379080864,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 130.55642415,
+      "read_latency_ns_p50": 64.635,
+      "read_latency_ns_p99": 452.445
+    },
+    {
+      "achieved_gb_per_s": 6.929056615654302,
+      "load_fraction": 0.9,
+      "offered_gb_per_s": 6.918686301465972,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 164.4993276,
+      "read_latency_ns_p50": 100.497,
+      "read_latency_ns_p99": 457.449
+    },
+    {
+      "achieved_gb_per_s": 7.306629702427002,
+      "load_fraction": 0.95,
+      "offered_gb_per_s": 7.303057762658526,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 212.3463246,
+      "read_latency_ns_p50": 191.82,
+      "read_latency_ns_p99": 482.886
+    },
+    {
+      "achieved_gb_per_s": 7.635264648472953,
+      "load_fraction": 1.0,
+      "offered_gb_per_s": 7.68742922385108,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 532.5004098,
+      "read_latency_ns_p50": 516.246,
+      "read_latency_ns_p99": 1013.727
+    },
+    {
+      "achieved_gb_per_s": 7.669719262869034,
+      "load_fraction": 1.1,
+      "offered_gb_per_s": 8.456172146236188,
+      "pattern": "random",
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 3904.3937473500005,
+      "read_latency_ns_p50": 3799.0785,
+      "read_latency_ns_p99": 7946.356169999999
+    }
+  ]
+}

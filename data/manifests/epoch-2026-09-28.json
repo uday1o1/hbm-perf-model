@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28",
+  "files": {
+    "ml_hardware.csv": {
+      "bytes": 97268,
+      "retrieved_utc": "2026-09-28T23:46:25Z",
+      "sha256": "6a66bf214a6b4dfce62b03d377986db718938f7b59b6fc09e5aeb15bc3a1e9c8",
+      "url": "https://epoch.ai/data/ml_hardware.csv"
+    }
+  },
+  "license": "Creative Commons Attribution",
+  "license_url": "https://epoch.ai/data/machine-learning-hardware",
+  "source": "epoch"
+}

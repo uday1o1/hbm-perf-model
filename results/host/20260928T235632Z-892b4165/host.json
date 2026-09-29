@@ -1,0 +1,90 @@
+{
+  "bandwidth": [
+    {
+      "bytes": 268435456,
+      "checksum": 3940649556508672.0,
+      "read_gb_per_s": 17.902,
+      "threads": 1
+    },
+    {
+      "bytes": 268435456,
+      "checksum": 3940649556508672.0,
+      "read_gb_per_s": 35.376,
+      "threads": 2
+    },
+    {
+      "bytes": 268435456,
+      "checksum": 3940649556508672.0,
+      "read_gb_per_s": 63.295,
+      "threads": 4
+    },
+    {
+      "bytes": 268435456,
+      "checksum": 3940649556508672.0,
+      "read_gb_per_s": 64.096,
+      "threads": 8
+    }
+  ],
+  "latency": [
+    {
+      "latency_ns": 2.037,
+      "working_set_bytes": 16384
+    },
+    {
+      "latency_ns": 2.037,
+      "working_set_bytes": 32768
+    },
+    {
+      "latency_ns": 2.035,
+      "working_set_bytes": 65536
+    },
+    {
+      "latency_ns": 2.038,
+      "working_set_bytes": 131072
+    },
+    {
+      "latency_ns": 9.544,
+      "working_set_bytes": 262144
+    },
+    {
+      "latency_ns": 9.709,
+      "working_set_bytes": 524288
+    },
+    {
+      "latency_ns": 9.674,
+      "working_set_bytes": 1048576
+    },
+    {
+      "latency_ns": 9.708,
+      "working_set_bytes": 2097152
+    },
+    {
+      "latency_ns": 10.076,
+      "working_set_bytes": 4194304
+    },
+    {
+      "latency_ns": 12.703,
+      "working_set_bytes": 8388608
+    },
+    {
+      "latency_ns": 32.236,
+      "working_set_bytes": 16777216
+    },
+    {
+      "latency_ns": 106.891,
+      "working_set_bytes": 33554432
+    },
+    {
+      "latency_ns": 117.47,
+      "working_set_bytes": 67108864
+    },
+    {
+      "latency_ns": 118.986,
+      "working_set_bytes": 134217728
+    },
+    {
+      "latency_ns": 121.898,
+      "working_set_bytes": 268435456
+    }
+  ]
+}

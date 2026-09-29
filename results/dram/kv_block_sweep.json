@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "config": {
+      "kv_bytes_per_token_layer": 4096,
+      "requests": 20000
+    },
+    "config_sha256": "2a59f3f59fff5551fdad597f9feedb035ea63163a5b41749849252af95b8cf93",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T01:14:59Z",
+    "git_dirty": true,
+    "git_sha": "2e2045ee8802b4af53e22643c52f37c8ef52a6a4",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": 20260928,
+    "started_utc": "2026-09-29T01:14:59Z",
+    "tool_versions": {}
+  },
+  "rows": [
+    {
+      "achieved_gb_per_s": 14.017872787804452,
+      "block_bytes": 4096,
+      "block_tokens": 1,
+      "efficiency": 0.8761170492377782,
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 87.9392,
+      "row_hit_rate": 0.73615
+    },
+    {
+      "achieved_gb_per_s": 14.08884779641615,
+      "block_bytes": 16384,
+      "block_tokens": 4,
+      "efficiency": 0.8805529872760094,
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 87.5712,
+      "row_hit_rate": 0.9184
+    },
+    {
+      "achieved_gb_per_s": 14.097847875410269,
+      "block_bytes": 65536,
+      "block_tokens": 16,
+      "efficiency": 0.8811154922131418,
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 87.56160000000001,
+      "row_hit_rate": 0.9504
+    },
+    {
+      "achieved_gb_per_s": 14.097847875410269,
+      "block_bytes": 262144,
+      "block_tokens": 64,
+      "efficiency": 0.8811154922131418,
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 87.56160000000001,
+      "row_hit_rate": 0.9504
+    },
+    {
+      "achieved_gb_per_s": 14.097847875410269,
+      "block_bytes": 1048576,
+      "block_tokens": 256,
+      "efficiency": 0.8811154922131418,
+      "preset": "hbm2_2000",
+      "read_latency_ns_mean": 87.56160000000001,
+      "row_hit_rate": 0.9504
+    },
+    {
+      "achieved_gb_per_s": 17.502179226417354,
+      "block_bytes": 4096,
+      "block_tokens": 1,
+      "efficiency": 0.6836788760319279,
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 73.3745,
+      "row_hit_rate": 0.7423
+    },
+    {
+      "achieved_gb_per_s": 20.85157506770653,
+      "block_bytes": 16384,
+      "block_tokens": 4,
+      "efficiency": 0.8145146510822863,
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 63.976499999999994,
+      "row_hit_rate": 0.92575
+    },
+    {
+      "achieved_gb_per_s": 21.56970131019084,
+      "block_bytes": 65536,
+      "block_tokens": 16,
+      "efficiency": 0.8425664574293297,
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 62.41799999999999,
+      "row_hit_rate": 0.95835
+    },
+    {
+      "achieved_gb_per_s": 21.56970131019084,
+      "block_bytes": 262144,
+      "block_tokens": 64,
+      "efficiency": 0.8425664574293297,
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 62.41799999999999,
+      "row_hit_rate": 0.95835
+    },
+    {
+      "achieved_gb_per_s": 21.56970131019084,
+      "block_bytes": 1048576,
+      "block_tokens": 256,
+      "efficiency": 0.8425664574293297,
+      "preset": "hbm2e_3200",
+      "read_latency_ns_mean": 62.41799999999999,
+      "row_hit_rate": 0.95835
+    },
+    {
+      "achieved_gb_per_s": 18.655492803789397,
+      "block_bytes": 4096,
+      "block_tokens": 1,
+      "efficiency": 0.7287301876480232,
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 67.904,
+      "row_hit_rate": 0.7424
+    },
+    {
+      "achieved_gb_per_s": 21.633498119744793,
+      "block_bytes": 16384,
+      "block_tokens": 4,
+      "efficiency": 0.8450585203025309,
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 60.348,
+      "row_hit_rate": 0.92665
+    },
+    {
+      "achieved_gb_per_s": 22.39916003149882,
+      "block_bytes": 65536,
+      "block_tokens": 16,
+      "efficiency": 0.8749671887304226,
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 58.7885,
+      "row_hit_rate": 0.95705
+    },
+    {
+      "achieved_gb_per_s": 22.39916003149882,
+      "block_bytes": 262144,
+      "block_tokens": 64,
+      "efficiency": 0.8749671887304226,
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 58.7885,
+      "row_hit_rate": 0.95705
+    },
+    {
+      "achieved_gb_per_s": 22.39916003149882,
+      "block_bytes": 1048576,
+      "block_tokens": 256,
+      "efficiency": 0.8749671887304226,
+      "preset": "hbm3_6400",
+      "read_latency_ns_mean": 58.7885,
+      "row_hit_rate": 0.95705
+    },
+    {
+      "achieved_gb_per_s": 20.88474638494014,
+      "block_bytes": 4096,
+      "block_tokens": 1,
+      "efficiency": 0.8158104056617241,
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 62.09175,
+      "row_hit_rate": 0.87065
+    },
+    {
+      "achieved_gb_per_s": 22.829116040575187,
+      "block_bytes": 16384,
+      "block_tokens": 4,
+      "efficiency": 0.8917623453349682,
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 57.91575,
+      "row_hit_rate": 0.9627
+    },
+    {
+      "achieved_gb_per_s": 22.829116040575187,
+      "block_bytes": 65536,
+      "block_tokens": 16,
+      "efficiency": 0.8917623453349682,
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 57.91575,
+      "row_hit_rate": 0.9627
+    },
+    {
+      "achieved_gb_per_s": 22.829116040575187,
+      "block_bytes": 262144,
+      "block_tokens": 64,
+      "efficiency": 0.8917623453349682,
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 57.91575,
+      "row_hit_rate": 0.9627
+    },
+    {
+      "achieved_gb_per_s": 22.829116040575187,
+      "block_bytes": 1048576,
+      "block_tokens": 256,
+      "efficiency": 0.8917623453349682,
+      "preset": "hbm3_6400_4hi",
+      "read_latency_ns_mean": 57.91575,
+      "row_hit_rate": 0.9627
+    },
+    {
+      "achieved_gb_per_s": 22.101497397168814,
+      "block_bytes": 4096,
+      "block_tokens": 1,
+      "efficiency": 0.5760202759137123,
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 59.147947200000004,
+      "row_hit_rate": 0.7421
+    },
+    {
+      "achieved_gb_per_s": 29.58026755814198,
+      "block_bytes": 16384,
+      "block_tokens": 4,
+      "efficiency": 0.7709357232340754,
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 47.4339168,
+      "row_hit_rate": 0.928
+    },
+    {
+      "achieved_gb_per_s": 31.501245505104503,
+      "block_bytes": 65536,
+      "block_tokens": 16,
+      "efficiency": 0.8210012109767862,
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 45.391284,
+      "row_hit_rate": 0.96
+    },
+    {
+      "achieved_gb_per_s": 31.501245505104503,
+      "block_bytes": 262144,
+      "block_tokens": 64,
+      "efficiency": 0.8210012109767862,
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 45.391284,
+      "row_hit_rate": 0.96
+    },
+    {
+      "achieved_gb_per_s": 31.501245505104503,
+      "block_bytes": 1048576,
+      "block_tokens": 256,
+      "efficiency": 0.8210012109767862,
+      "preset": "hbm3e_9600",
+      "read_latency_ns_mean": 45.391284,
+      "row_hit_rate": 0.96
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "config": {
+      "llm_decode": {
+        "block_bytes": 1024,
+        "weight_fraction": 0.8
+      },
+      "patterns": [
+        "stream",
+        "random",
+        "strided",
+        "mix",
+        "kv_gather",
+        "llm_decode"
+      ],
+      "queue_depths": [
+        32,
+        64
+      ],
+      "requests": 40000
+    },
+    "config_sha256": "f9184f055458083891772008cf5156487cacbf34a410e4d3421d07d98412f9f8",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-28T23:54:48Z",
+    "git_dirty": false,
+    "git_sha": "HEAD",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": 20260928,
+    "started_utc": "2026-09-28T23:52:15Z",
+    "tool_versions": {}
+  },
+  "presets": {
+    "hbm2_2000": {
+      "kv_gather": {
+        "efficiency": 0.43806332205320275,
+        "read_latency_ns_mean": 161.036,
+        "read_latency_ns_p99": 637.0,
+        "row_hit_rate": 0.0008
+      },
+      "kv_gather_q64": {
+        "efficiency": 0.43806332205320275,
+        "read_latency_ns_mean": 306.9696,
+        "read_latency_ns_p99": 765.0,
+        "row_hit_rate": 0.0008
+      },
+      "llm_decode": {
+        "efficiency": 0.8611039352449841,
+        "read_latency_ns_mean": 89.259,
+        "read_latency_ns_p99": 602.0,
+        "row_hit_rate": 0.573525
+      },
+      "llm_decode_q64": {
+        "efficiency": 0.8258405508356473,
+        "read_latency_ns_mean": 169.86255,
+        "read_latency_ns_p99": 731.0100000000022,
+        "row_hit_rate": 0.625675
+      },
+      "mix": {
+        "efficiency": 0.4080550058147838,
+        "read_latency_ns_mean": 239.15190959805463,
+        "read_latency_ns_p99": 769.0,
+        "row_hit_rate": 5e-05
+      },
+      "mix_q64": {
+        "efficiency": 0.4189710072063013,
+        "read_latency_ns_mean": 451.49806894578745,
+        "read_latency_ns_p99": 985.0,
+        "row_hit_rate": 5e-05
+      },
+      "peak_gb_per_s": 16.0,
+      "random": {
+        "efficiency": 0.43776607969531484,
+        "read_latency_ns_mean": 161.129,
+        "read_latency_ns_p99": 645.0,
+        "row_hit_rate": 7.5e-05
+      },
+      "random_q64": {
+        "efficiency": 0.4378044108794396,
+        "read_latency_ns_mean": 307.1298,
+        "read_latency_ns_p99": 793.0,
+        "row_hit_rate": 0.000175
+      },
+      "stack_peak_gb_per_s": 256.0,
+      "stream": {
+        "efficiency": 0.8766835062956834,
+        "read_latency_ns_mean": 87.9656,
+        "read_latency_ns_p99": 593.0,
+        "row_hit_rate": 0.9496
+      },
+      "stream_q64": {
+        "efficiency": 0.8776837924716673,
+        "read_latency_ns_mean": 160.7136,
+        "read_latency_ns_p99": 660.0,
+        "row_hit_rate": 0.949925
+      },
+      "strided": {
+        "efficiency": 0.23215524221046616,
+        "read_latency_ns_mean": 290.5812,
+        "read_latency_ns_p99": 709.0,
+        "row_hit_rate": 0.875
+      },
+      "strided_q64": {
+        "efficiency": 0.23215524221046616,
+        "read_latency_ns_mean": 565.9672,
+        "read_latency_ns_p99": 953.0,
+        "row_hit_rate": 0.875
+      }
+    },
+    "hbm2e_3200": {
+      "kv_gather": {
+        "efficiency": 0.24987662341718775,
+        "read_latency_ns_mean": 175.01275,
+        "read_latency_ns_p99": 649.375,
+        "row_hit_rate": 0.0008
+      },
+      "kv_gather_q64": {
+        "efficiency": 0.24987662341718775,
+        "read_latency_ns_mean": 334.91349999999994,
+        "read_latency_ns_p99": 789.375,
+        "row_hit_rate": 0.0008
+      },
+      "llm_decode": {
+        "efficiency": 0.5911126217322555,
+        "read_latency_ns_mean": 82.596109375,
+        "read_latency_ns_p99": 612.5,
+        "row_hit_rate": 0.57965
+      },
+      "llm_decode_q64": {
+        "efficiency": 0.6008893161879582,
+        "read_latency_ns_mean": 147.896375,
+        "read_latency_ns_p99": 708.75,
+        "row_hit_rate": 0.585025
+      },
+      "mix": {
+        "efficiency": 0.23458484347326317,
+        "read_latency_ns_mean": 258.70248355027894,
+        "read_latency_ns_p99": 790.0,
+        "row_hit_rate": 5e-05
+      },
+      "mix_q64": {
+        "efficiency": 0.2399592069348211,
+        "read_latency_ns_mean": 491.3498158346445,
+        "read_latency_ns_p99": 1033.125,
+        "row_hit_rate": 5e-05
+      },
+      "peak_gb_per_s": 25.6,
+      "random": {
+        "efficiency": 0.24970659475116735,
+        "read_latency_ns_mean": 175.117875,
+        "read_latency_ns_p99": 666.875,
+        "row_hit_rate": 5e-05
+      },
+      "random_q64": {
+        "efficiency": 0.24973387733696278,
+        "read_latency_ns_mean": 335.088625,
+        "read_latency_ns_p99": 824.375,
+        "row_hit_rate": 0.000175
+      },
+      "stack_peak_gb_per_s": 409.6,
+      "stream": {
+        "efficiency": 0.8360330233044205,
+        "read_latency_ns_mean": 62.80559375,
+        "read_latency_ns_p99": 546.875,
+        "row_hit_rate": 0.9573
+      },
+      "stream_q64": {
+        "efficiency": 0.8709378912416308,
+        "read_latency_ns_mean": 106.75575,
+        "read_latency_ns_p99": 618.75,
+        "row_hit_rate": 0.95775
+      },
+      "strided": {
+        "efficiency": 0.15917420422846273,
+        "read_latency_ns_mean": 266.2095,
+        "read_latency_ns_p99": 687.5,
+        "row_hit_rate": 0.875
+      },
+      "strided_q64": {
+        "efficiency": 0.15917420422846273,
+        "read_latency_ns_mean": 517.241,
+        "read_latency_ns_p99": 910.0,
+        "row_hit_rate": 0.875
+      }
+    },
+    "hbm3_6400": {
+      "kv_gather": {
+        "efficiency": 0.3008253896628875,
+        "read_latency_ns_mean": 146.035,
+        "read_latency_ns_p99": 520.0,
+        "row_hit_rate": 0.0008
+      },
+      "kv_gather_q64": {
+        "efficiency": 0.3008253896628875,
+        "read_latency_ns_mean": 278.849,
+        "read_latency_ns_p99": 645.0,
+        "row_hit_rate": 0.0008
+      },
+      "llm_decode": {
+        "efficiency": 0.6927666502134586,
+        "read_latency_ns_mean": 70.800890625,
+        "read_latency_ns_p99": 479.3812500000013,
+        "row_hit_rate": 0.579675
+      },
+      "llm_decode_q64": {
+        "efficiency": 0.7164350193437454,
+        "read_latency_ns_mean": 124.582046875,
+        "read_latency_ns_p99": 571.25,
+        "row_hit_rate": 0.584925
+      },
+      "mix": {
+        "efficiency": 0.27891377032148296,
+        "read_latency_ns_mean": 218.02585467029036,
+        "read_latency_ns_p99": 641.875,
+        "row_hit_rate": 2.5e-05
+      },
+      "mix_q64": {
+        "efficiency": 0.2864785696125019,
+        "read_latency_ns_mean": 411.9642889071664,
+        "read_latency_ns_p99": 855.625,
+        "row_hit_rate": 7.5e-05
+      },
+      "peak_gb_per_s": 25.6,
+      "random": {
+        "efficiency": 0.3006140041033811,
+        "read_latency_ns_mean": 146.125171875,
+        "read_latency_ns_p99": 527.5,
+        "row_hit_rate": 5e-05
+      },
+      "random_q64": {
+        "efficiency": 0.30065467555602327,
+        "read_latency_ns_mean": 278.999046875,
+        "read_latency_ns_p99": 667.5,
+        "row_hit_rate": 0.000175
+      },
+      "stack_peak_gb_per_s": 819.2,
+      "stream": {
+        "efficiency": 0.8751011835743507,
+        "read_latency_ns_mean": 58.801875,
+        "read_latency_ns_p99": 442.5,
+        "row_hit_rate": 0.956925
+      },
+      "stream_q64": {
+        "efficiency": 0.8958867599135468,
+        "read_latency_ns_mean": 102.309875,
+        "read_latency_ns_p99": 517.5,
+        "row_hit_rate": 0.957625
+      },
+      "strided": {
+        "efficiency": 0.1550667077593442,
+        "read_latency_ns_mean": 270.9905,
+        "read_latency_ns_p99": 598.125,
+        "row_hit_rate": 0.875
+      },
+      "strided_q64": {
+        "efficiency": 0.1550667077593442,
+        "read_latency_ns_mean": 528.668,
+        "read_latency_ns_p99": 833.125,
+        "row_hit_rate": 0.875
+      }
+    },
+    "hbm3e_9600": {
+      "kv_gather": {
+        "efficiency": 0.20059426049672155,
+        "read_latency_ns_mean": 145.91430480000002,
+        "read_latency_ns_p99": 520.416,
+        "row_hit_rate": 0.0008
+      },
+      "kv_gather_q64": {
+        "efficiency": 0.20059426049672155,
+        "read_latency_ns_mean": 278.8055328,
+        "read_latency_ns_p99": 640.512,
+        "row_hit_rate": 0.0008
+      },
+      "llm_decode": {
+        "efficiency": 0.47673815752620574,
+        "read_latency_ns_mean": 68.84342655,
+        "read_latency_ns_p99": 484.554,
+        "row_hit_rate": 0.58045
+      },
+      "llm_decode_q64": {
+        "efficiency": 0.48399196573336883,
+        "read_latency_ns_mean": 123.02690535,
+        "read_latency_ns_p99": 570.456,
+        "row_hit_rate": 0.585425
+      },
+      "mix": {
+        "efficiency": 0.18597212277879546,
+        "read_latency_ns_mean": 217.95553912172792,
+        "read_latency_ns_p99": 641.346,
+        "row_hit_rate": 2.5e-05
+      },
+      "mix_q64": {
+        "efficiency": 0.1910155820961095,
+        "read_latency_ns_mean": 412.0232144542984,
+        "read_latency_ns_p99": 853.7532899999995,
+        "row_hit_rate": 0.0001
+      },
+      "peak_gb_per_s": 38.36930455635491,
+      "random": {
+        "efficiency": 0.20045302383386457,
+        "read_latency_ns_mean": 146.00455402500003,
+        "read_latency_ns_p99": 522.918,
+        "row_hit_rate": 5e-05
+      },
+      "random_q64": {
+        "efficiency": 0.2004801499591522,
+        "read_latency_ns_mean": 278.955704925,
+        "read_latency_ns_p99": 668.034,
+        "row_hit_rate": 0.000175
+      },
+      "stack_peak_gb_per_s": 1227.8177458033572,
+      "stream": {
+        "efficiency": 0.821195044087909,
+        "read_latency_ns_mean": 45.39386939999999,
+        "read_latency_ns_p99": 139.278,
+        "row_hit_rate": 0.96
+      },
+      "stream_q64": {
+        "efficiency": 0.8860927739134287,
+        "read_latency_ns_mean": 73.0569822,
+        "read_latency_ns_p99": 468.291,
+        "row_hit_rate": 0.9608
+      },
+      "strided": {
+        "efficiency": 0.1026036970677146,
+        "read_latency_ns_mean": 272.9461824,
+        "read_latency_ns_p99": 600.063,
+        "row_hit_rate": 0.875
+      },
+      "strided_q64": {
+        "efficiency": 0.1026036970677146,
+        "read_latency_ns_mean": 532.77588,
+        "read_latency_ns_p99": 836.919,
+        "row_hit_rate": 0.875
+      }
+    }
+  }
+}

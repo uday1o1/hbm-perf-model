@@ -1,0 +1,183 @@
+{
+  "by_accelerator_round": [
+    {
+      "accelerator_id": "amd_mi300x",
+      "max_ratio": 0.16946068405008222,
+      "median_ratio": 0.16946068405008222,
+      "n": 1,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "amd_mi300x",
+      "max_ratio": 0.1829863998683728,
+      "median_ratio": 0.1818282165186401,
+      "n": 5,
+      "round": "5.1"
+    },
+    {
+      "accelerator_id": "amd_mi300x",
+      "max_ratio": 0.18130660700094994,
+      "median_ratio": 0.17957820065202953,
+      "n": 2,
+      "round": "6.0"
+    },
+    {
+      "accelerator_id": "amd_mi325x",
+      "max_ratio": 0.22288690021591342,
+      "median_ratio": 0.21881913430465716,
+      "n": 4,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "amd_mi325x",
+      "max_ratio": 0.22700525042548472,
+      "median_ratio": 0.22160356999827147,
+      "n": 12,
+      "round": "5.1"
+    },
+    {
+      "accelerator_id": "amd_mi325x",
+      "max_ratio": 0.22257354034193585,
+      "median_ratio": 0.22257354034193585,
+      "n": 1,
+      "round": "6.0"
+    },
+    {
+      "accelerator_id": "amd_mi355x",
+      "max_ratio": 0.3328870001988461,
+      "median_ratio": 0.17156452271430955,
+      "n": 10,
+      "round": "6.0"
+    },
+    {
+      "accelerator_id": "nvidia_b200",
+      "max_ratio": 0.18869022417806222,
+      "median_ratio": 0.1879465948173653,
+      "n": 4,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_b200",
+      "max_ratio": 0.19642236622165332,
+      "median_ratio": 0.19377404553898664,
+      "n": 12,
+      "round": "5.1"
+    },
+    {
+      "accelerator_id": "nvidia_b200",
+      "max_ratio": 0.19841695729436443,
+      "median_ratio": 0.19616564612664888,
+      "n": 2,
+      "round": "6.0"
+    },
+    {
+      "accelerator_id": "nvidia_gb200_per_gpu",
+      "max_ratio": 0.1788659183386624,
+      "median_ratio": 0.1777503597756416,
+      "n": 3,
+      "round": "5.1"
+    },
+    {
+      "accelerator_id": "nvidia_gb200_per_gpu",
+      "max_ratio": 0.16950283066845867,
+      "median_ratio": 0.16950283066845867,
+      "n": 1,
+      "round": "6.0"
+    },
+    {
+      "accelerator_id": "nvidia_gh200_hbm3",
+      "max_ratio": 0.21833918432912622,
+      "median_ratio": 0.21833918432912622,
+      "n": 1,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_gh200_hbm3e",
+      "max_ratio": 0.32541647909855403,
+      "median_ratio": 0.32508905851381914,
+      "n": 3,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_h100_pcie",
+      "max_ratio": 0.15925223053871038,
+      "median_ratio": 0.15925223053871038,
+      "n": 1,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_h100_sxm",
+      "max_ratio": 0.27175214109700657,
+      "median_ratio": 0.27078819475727134,
+      "n": 6,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_h100_sxm",
+      "max_ratio": 0.27099652174649824,
+      "median_ratio": 0.2708057723469874,
+      "n": 2,
+      "round": "5.1"
+    },
+    {
+      "accelerator_id": "nvidia_h200_sxm",
+      "max_ratio": 0.30774236454419407,
+      "median_ratio": 0.30194523205439516,
+      "n": 18,
+      "round": "5.0"
+    },
+    {
+      "accelerator_id": "nvidia_h200_sxm",
+      "max_ratio": 0.30655924085120967,
+      "median_ratio": 0.3028410381080707,
+      "n": 10,
+      "round": "5.1"
+    }
+  ],
+  "claim": "I1",
+  "claim_input_sha256": "222cf5d323ae35066563ace236fb522236ba708d9159f0ab933d964b17f06f80",
+  "csp_rows": 13,
+  "meta": {
+    "config": {
+      "claim": "I1"
+    },
+    "config_sha256": "e08241e9098373f2211290ed1aeb58e7771dbf1704affeb03c5878ad3c81f5aa",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T00:27:19Z",
+    "git_dirty": true,
+    "git_sha": "41be6028c202f8e1696289cc5d45a8f70710c870",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": null,
+    "started_utc": "2026-09-29T00:27:19Z",
+    "tool_versions": {}
+  },
+  "n_rows": 98,
+  "n_violations": 0,
+  "ratio_quantiles": {
+    "max": 0.3328870001988461,
+    "median": 0.22160356999827147,
+    "min": 0.14976325036714666,
+    "p25": 0.18756356652691908,
+    "p75": 0.29891819749947246
+  },
+  "source": "MLCommons MLPerf Inference Datacenter results v5.0, v5.1, v6.0 (Apache-2.0; the v5.0 repository has no license file)",
+  "unmapped_accelerators": {
+    "AMD Instinct MI350X 288GB HBM3e": 4,
+    "Intel(R) Arc Pro(R) B60": 1,
+    "MS-Intel Arc Pro B60 Dual 48G Turbo": 1,
+    "NVIDIA B300-SXM-270GB": 5,
+    "NVIDIA GB300": 1,
+    "NVIDIA H100-NVL-94GB": 3,
+    "NVIDIA H200-NVL-141GB": 7,
+    "NVIDIA L40S": 2,
+    "NVIDIA RTX PRO 6000 Blackwell Server Edition": 12,
+    "[MAXSUN] MS-Intel Arc Pro B60 Dual 48G Turbo": 1
+  },
+  "verdict": "PASS",
+  "violations": []
+}

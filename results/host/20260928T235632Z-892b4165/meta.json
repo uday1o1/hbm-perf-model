@@ -1,0 +1,42 @@
+{
+  "config": {
+    "kind": "host",
+    "sizes": [
+      16384,
+      32768,
+      65536,
+      131072,
+      262144,
+      524288,
+      1048576,
+      2097152,
+      4194304,
+      8388608,
+      16777216,
+      33554432,
+      67108864,
+      134217728,
+      268435456
+    ],
+    "threads": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "config_sha256": "892b4165f8a40a7b3d2320a621246ac4e0d6b7454e539aa3d41544caf9a88c64",
+  "cpu_brand": "Apple M2",
+  "finished_utc": "2026-09-28T23:57:08Z",
+  "git_dirty": false,
+  "git_sha": "HEAD",
+  "hbmperf_version": "0.1.0",
+  "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+  "mem_bytes": 8589934592,
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "python_version": "3.12.9",
+  "schema_version": 1,
+  "seed": 20260928,
+  "started_utc": "2026-09-28T23:56:32Z",
+  "tool_versions": {}
+}

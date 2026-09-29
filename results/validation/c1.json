@@ -1,0 +1,374 @@
+{
+  "ablation_weights_only_mdape": 0.13848257561864463,
+  "anchor_drift": -0.012070716501583978,
+  "anchor_within_tolerance": true,
+  "calibration": {
+    "eta_m": 0.37350492873258834,
+    "t_fixed_s": 0.004312959882790233
+  },
+  "claim": "C1",
+  "claim_input_sha256": "973fe3f2db71bb24ffa7ecc340cc06347cf89ad03ec48a11b765fc903afc94d4",
+  "comparison": {
+    "baseline_mdape": 0.22443836392411926,
+    "baseline_mdape_ci": [
+      0.13506885451492323,
+      0.29047388546515013
+    ],
+    "diff": 0.11461515396316775,
+    "diff_ci": [
+      0.008483980703716087,
+      0.21245197196204413
+    ],
+    "loco_range": [
+      0.08840489798779749,
+      0.11142306143771388
+    ],
+    "mdape": 0.1098232099609515,
+    "mdape_ci": [
+      0.0762384392884857,
+      0.13212637161409688
+    ],
+    "n_clusters": 6,
+    "n_examples": 30,
+    "reasons": [],
+    "verdict": "PASS"
+  },
+  "device": "apple_m2",
+  "drift_normalized_mdape": 0.10314847459738041,
+  "examples": [
+    {
+      "baseline_s": 0.055448848740963765,
+      "depth": 256,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-f16.gguf",
+      "measured_s": 0.0482990732421875,
+      "model_id": "tinyllama-1.1b",
+      "precision": "f16",
+      "predicted_s": 0.05990152625178996,
+      "spec_peak_s": 0.02076260352
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 512,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.05636032259375,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.056033300777757714,
+      "spec_peak_s": 0.01931780224
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 2048,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.06611800228125,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.06411859938478653,
+      "spec_peak_s": 0.02233770112
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 4096,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.1192031744765625,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.1178546652195955,
+      "spec_peak_s": 0.04240838656
+    },
+    {
+      "baseline_s": 0.030591636722861623,
+      "depth": 1024,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf",
+      "measured_s": 0.041102720046875,
+      "model_id": "tinyllama-1.1b",
+      "precision": "q8_0",
+      "predicted_s": 0.03439836142790662,
+      "spec_peak_s": 0.01123704576
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 1024,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.0650373056640625,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.05872840031343399,
+      "spec_peak_s": 0.0203244352
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 512,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.083918335609375,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.09898896846986158,
+      "spec_peak_s": 0.03536195584
+    },
+    {
+      "baseline_s": 0.019857592106767876,
+      "depth": 1024,
+      "filename": "SmolLM2-360M-Instruct-f16.gguf",
+      "measured_s": 0.020308699546875,
+      "model_id": "smollm2-360m",
+      "precision": "f16",
+      "predicted_s": 0.02488156877924816,
+      "spec_peak_s": 0.0076824768
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 512,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.0162268447265625,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.01523835413085805,
+      "spec_peak_s": 0.0040806886
+    },
+    {
+      "baseline_s": 0.019857592106767876,
+      "depth": 4096,
+      "filename": "SmolLM2-360M-Instruct-f16.gguf",
+      "measured_s": 0.02369279134375,
+      "model_id": "smollm2-360m",
+      "precision": "f16",
+      "predicted_s": 0.028250443198843504,
+      "spec_peak_s": 0.008940768
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 0,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.0985165537109375,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.09629386893418529,
+      "spec_peak_s": 0.03435532288
+    },
+    {
+      "baseline_s": 0.030591636722861623,
+      "depth": 256,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf",
+      "measured_s": 0.0346291500625,
+      "model_id": "tinyllama-1.1b",
+      "precision": "q8_0",
+      "predicted_s": 0.03393514119521226,
+      "spec_peak_s": 0.01106403072
+    },
+    {
+      "baseline_s": 0.055448848740963765,
+      "depth": 512,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-f16.gguf",
+      "measured_s": 0.0540162119140625,
+      "model_id": "tinyllama-1.1b",
+      "precision": "f16",
+      "predicted_s": 0.06005593299602141,
+      "spec_peak_s": 0.0208202752
+    },
+    {
+      "baseline_s": 0.055448848740963765,
+      "depth": 1024,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-f16.gguf",
+      "measured_s": 0.0543320911484375,
+      "model_id": "tinyllama-1.1b",
+      "precision": "f16",
+      "predicted_s": 0.060364746484484325,
+      "spec_peak_s": 0.02093561856
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 4096,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.1116777916640625,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.07489899752749166,
+      "spec_peak_s": 0.02636423296
+    },
+    {
+      "baseline_s": 0.030591636722861623,
+      "depth": 0,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf",
+      "measured_s": 0.0379148776015625,
+      "model_id": "tinyllama-1.1b",
+      "precision": "q8_0",
+      "predicted_s": 0.03378073445098081,
+      "spec_peak_s": 0.01100635904
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 1024,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.01834159375,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.015799833200790606,
+      "spec_peak_s": 0.0042904038
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 0,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.016502161453125,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.014676875060925491,
+      "spec_peak_s": 0.0038709734
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 256,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.090425015296875,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.09764141870202343,
+      "spec_peak_s": 0.03485863936
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 256,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.01613853971875,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.01495761459589177,
+      "spec_peak_s": 0.003975831
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 0,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.056865708984375,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.05333820124208143,
+      "spec_peak_s": 0.01831116928
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 2048,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.01827218978125,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.016922791340655722,
+      "spec_peak_s": 0.0047098342
+    },
+    {
+      "baseline_s": 0.030591636722861623,
+      "depth": 512,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-Q8_0.gguf",
+      "measured_s": 0.036928685875,
+      "model_id": "tinyllama-1.1b",
+      "precision": "q8_0",
+      "predicted_s": 0.034089547939443715,
+      "spec_peak_s": 0.0111217024
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 2048,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.1230054388046875,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.1070742670768904,
+      "spec_peak_s": 0.03838185472
+    },
+    {
+      "baseline_s": 0.019857592106767876,
+      "depth": 0,
+      "filename": "SmolLM2-360M-Instruct-f16.gguf",
+      "measured_s": 0.027454205078125,
+      "model_id": "smollm2-360m",
+      "precision": "f16",
+      "predicted_s": 0.02375861063938304,
+      "spec_peak_s": 0.0072630464
+    },
+    {
+      "baseline_s": 0.019857592106767876,
+      "depth": 512,
+      "filename": "SmolLM2-360M-Instruct-f16.gguf",
+      "measured_s": 0.022881041015625,
+      "model_id": "smollm2-360m",
+      "precision": "f16",
+      "predicted_s": 0.024320089709315602,
+      "spec_peak_s": 0.0074727616
+    },
+    {
+      "baseline_s": 0.055448848740963765,
+      "depth": 0,
+      "filename": "TinyLlama-1.1B-Chat-v1.0-f16.gguf",
+      "measured_s": 0.052440001953125,
+      "model_id": "tinyllama-1.1b",
+      "precision": "f16",
+      "predicted_s": 0.05974711950755851,
+      "spec_peak_s": 0.02070493184
+    },
+    {
+      "baseline_s": 0.01168243658127194,
+      "depth": 4096,
+      "filename": "SmolLM2-360M-Instruct-Q8_0.gguf",
+      "measured_s": 0.0207507093125,
+      "model_id": "smollm2-360m",
+      "precision": "q8_0",
+      "predicted_s": 0.019168707620385955,
+      "spec_peak_s": 0.005548695
+    },
+    {
+      "baseline_s": 0.08492127174800047,
+      "depth": 1024,
+      "filename": "SmolLM2-1.7B-Instruct-f16.gguf",
+      "measured_s": 0.1227625345,
+      "model_id": "smollm2-1.7b",
+      "precision": "f16",
+      "predicted_s": 0.10168406800553784,
+      "spec_peak_s": 0.0363685888
+    },
+    {
+      "baseline_s": 0.04624923169695882,
+      "depth": 256,
+      "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+      "measured_s": 0.0969390309296875,
+      "model_id": "smollm2-1.7b",
+      "precision": "q8_0",
+      "predicted_s": 0.05468575100991957,
+      "spec_peak_s": 0.01881448576
+    }
+  ],
+  "fallback_claim": "a: full claim holds",
+  "guards_pass": true,
+  "meta": {
+    "config": {
+      "claim": "C1",
+      "stage": "evaluation"
+    },
+    "config_sha256": "db9b7b1864778df78e96d226e55c78b51c63f8b8aa7b9b8a77be4e8341d55dc0",
+    "cpu_brand": "Apple M2",
+    "finished_utc": "2026-09-29T01:13:14Z",
+    "git_dirty": true,
+    "git_sha": "d858283b9679d8dac7d29747714f0583f686af44",
+    "hbmperf_version": "0.1.0",
+    "llm_model_sha256": "b9339beac24265764da934ab33c0c568f439715348dc125da411a28ee6e64590",
+    "mem_bytes": 8589934592,
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_version": "3.12.9",
+    "schema_version": 1,
+    "seed": null,
+    "started_utc": "2026-09-29T01:13:14Z",
+    "tool_versions": {}
+  },
+  "reasons": [],
+  "rules": {
+    "min_clusters": 4,
+    "min_examples": 24,
+    "threshold": 0.2,
+    "upper": 0.3
+  },
+  "sessions": [
+    "evaluation-20260929T004205Z.json"
+  ],
+  "spec_peak_mdape": 0.683997619640277,
+  "verdict": "PASS"
+}

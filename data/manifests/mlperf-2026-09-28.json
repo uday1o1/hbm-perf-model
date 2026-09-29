@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-28",
+  "files": {
+    "summary_results_v5.0.json": {
+      "bytes": 27696289,
+      "retrieved_utc": "2026-09-28T23:46:26Z",
+      "sha256": "5a9edf18b4272a85eaac8e15a96680b1562dee73d2fdae95efdfcd29ca63e570",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v5.0/main/summary_results.json"
+    },
+    "summary_results_v5.1.json": {
+      "bytes": 2221336,
+      "retrieved_utc": "2026-09-28T23:46:26Z",
+      "sha256": "68c19b46cf5a87f535beae81154d61c3d981fe850ae3d09af530c769b6e0cc68",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v5.1/main/summary_results.json"
+    },
+    "summary_results_v6.0.json": {
+      "bytes": 784457,
+      "retrieved_utc": "2026-09-28T23:46:27Z",
+      "sha256": "52fa813a27834e8de38eca9fd381688df1cf9cd95020d2bd9e951f6cc16384ae",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v6.0/main/summary_results.json"
+    }
+  },
+  "license": "Apache-2.0 (v5.1 and v6.0 repositories; v5.0 repository has no license file)",
+  "license_url": "https://github.com/mlcommons/inference_results_v5.1/blob/main/LICENSE.md",
+  "source": "mlperf"
+}

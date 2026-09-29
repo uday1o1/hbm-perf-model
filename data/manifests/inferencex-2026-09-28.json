@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28",
+  "files": {
+    "llama70b_benchmarks.json": {
+      "bytes": 1026817,
+      "retrieved_utc": "2026-09-28T23:46:25Z",
+      "sha256": "d2ce48fdbd84936994d68bb28413f0e842da3b01a2c7a0958e4041699dc19792",
+      "url": "https://inferencex.semianalysis.com/api/v1/benchmarks?model=Llama-3.3-70B-Instruct-FP8"
+    }
+  },
+  "license": "Repository Apache-2.0; API data has no explicit license (raw snapshot kept local, only derived statistics committed)",
+  "license_url": "https://github.com/SemiAnalysisAI/InferenceX",
+  "source": "inferencex"
+}
